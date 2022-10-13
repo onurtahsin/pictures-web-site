@@ -5,6 +5,8 @@ $cardNavBgColor: #171B20; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  text-align: center;
 }
 h1 {
   text-align: center;
@@ -43,9 +45,6 @@ img {
 .box1:hover {
   box-shadow: rgba(255, 255, 255, 0.636) 0px 13px 27px -5px,
     rgb(255, 255, 255) 0px 8px 16px -8px;
-}
-p {
-  text-align: center;
 }
 figure {
   overflow: hidden;
