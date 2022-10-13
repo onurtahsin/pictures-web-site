@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+/* $backgroundColor:#ace0f9;
+$cardNavBgColor: #171B20; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  color: white;
+  background-color: crimson;
+  font-family: "Hubballi", cursive;
+  font-size: 2rem;
+}
+.box {
+  display: flex;
+  /* flex-direction: column; */
+  display: grid;
+  grid-template-columns: repeat(4, 18rem);
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+img {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 1.5rem;
+  filter: grayscale(0);
+  transition: all 0.5s;
+}
+.box1 {
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  color: crimson;
+  background-color: white;
+}
+.box1:hover {
+  box-shadow: rgba(255, 255, 255, 0.636) 0px 13px 27px -5px,
+    rgb(255, 255, 255) 0px 8px 16px -8px;
+}
+p {
+  text-align: center;
+}
+figure {
+  overflow: hidden;
+}
+img:hover {
+  transform: scale(1.13);
+  filter: grayscale(70);
+}
